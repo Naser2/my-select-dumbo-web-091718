@@ -1,7 +1,7 @@
 def my_select(collection)
 arr = []
 i = 0
- while i < collection.size
+ while i < collection.length
    if yield collection[i]
      arr << (collection[i])
    end
